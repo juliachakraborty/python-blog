@@ -1,8 +1,10 @@
 from jinja2 import Environment, FileSystemLoader
 import os
+import markdown
 
 # Paths
 TEMPLATES_DIR = 'templates'
+CONTENT_DIR = 'content'
 
 # Set up Jinja2 environment
 env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
